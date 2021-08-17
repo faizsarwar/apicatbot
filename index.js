@@ -55,7 +55,7 @@ app.post("/webhook",express.json(),(request,response)=>{                        
             service: 'gmail',
             auth:{
                 user: 'faizsarwar856@gmail.com',  //add your email
-                pass: 'perfectcup'               //add your password
+//                 pass: ''               //add your password
             }
         });
 
